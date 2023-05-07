@@ -5,7 +5,7 @@ const app = servidorHTTP();
 const port = process.env.PORT || 3000;
 app.use(servidorHTTP.static('public'));
 app.get('/',(req,res)=>{
-    res.send('index');
+    res.send('Index');
 })
 //Configuraciones - Respuestas para el cliente (Chrome, fireFox, Insomnia, Edge)
 /*app.post== Creamos un recurso del servidor
