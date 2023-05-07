@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    background-color: rgb(247, 149, 64);
+}
+#container{
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 0px;
+    background-color: #B71375;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    border-style: solid;
+    border: #000000;
+    box-shadow: 0px 0px 0px rgb(0,0,0,0.1), 5px 8px 8px rgb(0,0,0,0.2); /*Sombra*/
+    color:aliceblue
+}
+h2{
+    width: 90%;
+    font-size: xx-large;
+    margin: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.entrada{
+    box-sizing: border-box;
+    width: 30%;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: solid;
+    margin-bottom: 5%;
+    
+}
+#entradas{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    width: 100%;
+    font-size: large;
+    box-sizing: border-box;
+}
+#botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10%;
+    
+}
+.boton{
+    box-sizing: border-box;
+    width: 30%;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: solid;
+    margin-bottom: 5%;
+    background-color: #8B1874;
+    color:aliceblue;
+}
